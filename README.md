@@ -1,4 +1,4 @@
-****Cycle Generative Adversarial Networks for Medical Image Translation****
+****Cycle Generative Adversarial Networks for MRI Translation****
 
 This project explores the use of Generative Adversarial Networks (GANs) for generating synthetic brain Magnetic Resonance Imaging (MRI) sequences. The focus is on transforming T1-weighted MRI images to T2-weighted images and vice versa, using a CycleGAN architecture. The synthetic images generated can be used for enhancing diagnostic reliability, physician training, and computer-aided diagnosis.
 
