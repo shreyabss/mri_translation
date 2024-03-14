@@ -4,13 +4,14 @@ This project explores the use of Generative Adversarial Networks (GANs) for gene
 
 **Dataset**
 
-MICCAI BRATS 2020: Contains MRI images of 335 patients with High-Grade Glioma (HGG) and Low-Grade Glioma (LGG).
-CrossMoDA 2020: Includes MRI images of 242 patients with Vestibular-Schwannoma.
+MICCAI BRATS 2020: Contains MRI images of 335 patients with High-Grade Glioma (HGG) and Low-Grade Glioma (LGG) and CrossMoDA 2020: Includes MRI images of 242 patients with Vestibular-Schwannoma.
 
 **Methodology**
 
 Data Preprocessing: Slicing of MRI volumes and conversion to 2D axial slices.
+
 CycleGAN Architecture: Utilizing two generators and two discriminators for domain translation between T1 and T2-weighted images.
+
 Training: Employing adversarial and cycle-consistency losses for training the model.
 
 **Results**
